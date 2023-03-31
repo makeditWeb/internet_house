@@ -1,0 +1,12 @@
+:root{
+    --main-color:#081f5c;
+    --font-white-color:#fff;
+    --btn-bg-color:#FB6116;
+}
+
+/* common */
+
+.inner_wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
