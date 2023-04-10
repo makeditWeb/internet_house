@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
 
     <script src="https://kit.fontawesome.com/7c3e78d84b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <!-- header -->
@@ -52,12 +54,428 @@
 
     <!-- main banner -->
 
-    <section class="main_banner"> 
-        <div class="main_banner_wrap">
-            
-        </div>
-    </section>
+    <main class="page_common inner_wrap">
+        <h2 class="page_ttile">
+            SK브로드밴드
+        </h2>
+        <h5 class="page_span">같은 상품, 같은 요금이면 현금 지원 많이 받는 게 최고!</h5>
+        <ul class="tab-container">
+            <li class="tab-container__item active" data-tab="tab1">
+                <a class="tab-container__item--title" href="#">상품정보</a>
+            </li>
+            <li class="tab-container__item" data-tab="tab2">
+                <a class="tab-container__item--title" href="#">결합정보</a>
+            </li>
+            <li class="tab-container__item" data-tab="tab3">
+                <a class="tab-container__item--title" href="#">안내사항</a>
+            </li>
+        </ul>
 
-    <script src="./main.js"></script>
+        <section class="content-container">
+            <div id="tab1" class="content-container__content target">
+                <div class="price_info">
+                    <h2>요금정보</h2>
+                    <ul class="price_view">
+                        <li class="price_list">스마트광(100MB)</li>
+                        <li class="price_list">기가 라이트 (500MB)</li>
+                        <li class="price_list">기가인터넷 (1GB)</li>
+                        <li class="price_list">기가프리미엄 (2.5GB)</li>
+                    </ul>
+                    <ul class="price_view_home">
+                        <li class="price_list">요즘우리집결합</li>
+                        <li class="price_list">요즘우리집결합</li>
+                        <li class="price_list">온가족할인</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="tab2" class="content-container__content">
+                <div class="price_info">
+                    <h2>요즘가족결합</h2>
+                    <p>(SKB인터넷+SKT이동전화 결합 3년약정시)</p>
+                </div>
+
+                <div class="tab">
+                    <ul class="tabs">
+                        <li class="tab-link current" data-tab="tab-1">광랜 계열 인터넷 결합</li>
+                        <li class="tab-link" data-tab="tab-2">기가 계열 인터넷 결합</li>
+                    </ul>
+
+                    <div id="tab-1" class="tab-content current">
+                        <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                            <colgroup>
+                                <col width="33.333%">
+                                <col width="33.333%">
+                                <col width="33.333%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <td>이동전화 회선수</td>
+                                    <td>이동전화 할인</td>
+                                    <td>광랜계열 인터넷 할인</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1회선</td>
+                                    <td>3,500원(3,500원)</td>
+                                    <td rowspan="3">4,400원</td>
+                                </tr>
+                                <tr>
+                                    <td>2회선</td>
+                                    <td>7,000원(3,500원)</td>
+                                </tr>
+                                <tr>
+                                    <td>3회선</td>
+                                    <td>18,000원(6,000원)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tab-2" class="tab-content">
+                        <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                            <colgroup>
+                                <col width="25%">
+                                <col width="25%">
+                                <col width="25%">
+                                <col width="25%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <td>이동전화 회선수</td>
+                                    <td>이동전화 할인</td>
+                                    <td>500M</td>
+                                    <td>1G</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1회선</td>
+                                    <td>3,500원(3,500원)</td>
+                                    <td rowspan="5">
+                                    <p>11,000원</p>
+                                    </td>
+                                    <td rowspan="5">13,200원</td>
+                                </tr>
+                                <tr>
+                                    <td>2회선</td>
+                                    <td>7,000원(3,500원)</td>
+                                </tr>
+                                <tr>
+                                    <td>3회선</td>
+                                    <td>18,000원(6,000원)</td>
+                                </tr>
+                                <tr>
+                                    <td>4회선</td>
+                                    <td>24,000원(6,000원)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="product_button_wrap">
+                    <div class="btn_basic">
+                        <a href="./aplication.html"> 가입신청서 신청 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg></a>
+                    </div>
+                    <div class="btn_basic">
+                        <a href="./main.html"> 비밀지원금 문자 받기 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg></a>
+                    </div>
+                </div>
+
+                <div class="information_content">
+                    <div class="info_content_title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg>
+                        <h2>
+                            요즘 가족 결합 Scheme : IPTV 추가혜택
+
+                        </h2>
+                    </div>
+                    <span>(이동전화 + 인터넷 + IPTV)</span>
+                    <div class="table_info product_table">
+                        <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                            <colgroup>
+                                <col width="20%">
+                                <col width="20%">
+                                <col width="20%">
+                                <col width="40%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="product_table_1_gray">TV</td>
+                                    <td class="product_table_1">-1,150원</td>
+                                    <td class="product_table_1_gray">이동전화</td>
+                                    <td class="product_table_1">모바일 BTV 데이터팩 무료(5,500원 할인)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="information_content">
+                    <div class="info_content_title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg>
+                        <h2>
+                            NewTV 플러스
+
+                        </h2>
+                    </div>
+                    <div class="table_info product_table">
+                        <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                            <colgroup>
+                                <col width="20%">
+                                <col width="80%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="product_table_1_gray">TV</td>
+                                    <td class="product_table_1">-1,100원</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="information_content">
+                    <div class="info_content_title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg>
+                        <h2>
+                            요즘우리집 결합할인
+
+                        </h2>
+                    </div>
+                    <div class="table_info product_table">
+                        <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                            <colgroup>
+                                <col width="16.666%">
+                                <col width="16.666%">
+                                <col width="16.666%">
+                                <col width="16.666%">
+                                <col width="16.666%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <td rowspan="2">구분</td>
+                                    <td colspan="2">인터넷</td>
+                                    <td>TV</td>
+                                    <td>전화</td>
+                                </tr>
+                                <tr>
+                                    <td>다이렉트</td>
+                                    <td>기가/라이트</td>
+                                    <td>베이직 이상</td>
+                                    <td>기본 요금제</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>인터넷+전화</td>
+                                    <td>-1,100원</td>
+                                    <td>-2,200원</td>
+                                    <td>&nbsp;</td>
+                                    <td>-1,100원</td>
+                                </tr>
+                                <tr>
+                                    <td>인터넷+TV+전화</td>
+                                    <td>-2,200원</td>
+                                    <td>-5,500원</td>
+                                    <td>-2,200원</td>
+                                    <td>-1,100원</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="information_content">
+                    <div class="info_content_title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg>
+                        <h2>
+                            즘우리집결합 Scheme : IPTV 추가혜택
+
+                        </h2>
+                    </div>
+                    <span>(All 이상)</span>
+                    <div class="table_info product_table">
+                        <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                            <colgroup>
+                                <col width="20%">
+                                <col width="80%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="product_table_1_gray">TV</td>
+                                    <td class="product_table_1">VOD쿠폰 3,300원/월(36개월간)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="descript_span">
+                    · 영업점에서는 SK 인터넷 최초 신청 시 휴대폰 1회선만 결합신청이 가능하며, 추가 회선 결합 시에는 고객센터를 통해서 결합하시면 됩니다.
+                    <br>· 추가 결합 과정에서 온 가족 플랜으로 상품이 바뀌면 사은품은 돌려주셔야 합니다.
+                </div>
+
+
+            </div>
+
+            <div id="tab3" class="content-container__content">
+
+                <div class="information">
+                    <div class="information_content">
+                        <div class="info_content_title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                            <h2>
+                                SK 인터넷(요즘 우리 집 결합, 요즘 가족결합) 가입 시 유의사항
+
+                            </h2>
+
+                        </div>
+                        <span>(모든 영업점 동일합니다.)</span>
+                        <div class="info_wrap">
+                            · 요즘 우리 집 결합으로 진행 후 임의로 무선 상품 결합 시 사은품 전액 환수됩니다.(온 가족할인 해당)
+                            <Br>· 동일 장소 3개월 이내 해지접수 건이 있을 경우 사은품 전액 환수됩니다.
+                            <Br>· 복지할인은 중복으로 불가능합니다.
+                            <Br>· 위 사용료는 3년 약정 기준이며, 1년 이내 해지(위 면해 지, 직원 해지 포함) 및 정지 시 현금 사은품은 전액 영업점으로 반납되오니 유의해 주세요.
+                            <Br>· 동일 명의 / 동일 통신사를 이용 중인 상품은 신규 가입 후 4개월(120일)이 내 명의변경, 일시정지, 해지할 경우 사은품은 전액 반환됩니다.
+                            <Br>· SK 휴대폰 결합은 본사에서만 결합이 가능하오니 꼭 인터넷 설치 후 30일 이내에 SK 본사 고객센터 106번으로 결합신청하시면 됩니다.(결합 시점부터
+                            할인 혜택 적용 - 결합 유무 확인은 106번에서 확인 가능합니다.)
+                            <Br>· 명의변경은 개통 후 6개월(180일) 내로 명의변경이 불가하며, 명의변경 시 사은품은 전액 반환됩니다.
+                            <Br>· 다회선 가입자의 경우 기존 사용 회선 변경/정지/해지 등 변경은 4개월(120일) 이내로 불가합니다. 위반 시 사은품 전액 반환됩니다.
+                            <Br>· 기존에 사용하시던 인터넷은 꼭 설치 받으신 후 직접 해지해 주셔야 합니다.
+                            <Br>· 전화 결합상품 신청 시 개통 후 첫 3개월 동안은 매달 1통씩 3분 이상 사용해 주셔야 하며, 미사용 시 전화 부분에 대한 사은품은 전액 환수됩니다.
+                        </div>
+
+
+                    </div>
+
+                    <div class="information_content">
+                        <div class="info_content_title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                            <h2>
+                                SK 인터넷(요즘 우리 집 결합, 요즘 가족결합) 가입 시 유의사항
+
+                            </h2>
+                        </div>
+                        <span>(모든 영업점 동일합니다.)</span>
+                        <div class="info_wrap">
+                            · 신규 가입 후 기존 통신사 해지는 본인이 직접 해지하셔야 합니다.
+                            <br>· 기사분 설치 중 상품 변경을 하는 경우 미리 영업점으로 확인 후 상품 변경을 하셔야 사은품 혜택을 받을 수 있습니다.
+                            <br>· 모든 상품은 3년 약정으로, 약정 기간 내 해지 시에는 약정 위약금과 사은품 반환(1년 이내 해지 시) 청구됩니다.
+                            <br>· 모든 상품은 설치비가 있습니다. 가입 첫 달 사용요금과 함께 부과됩니다.
+                            <br>· 약정 기간 내 해지 시 할인받은 금액과 장비 임대료 등이 위약금에 포함됩니다.
+                            <br>· 인터넷 개통 후 별도로 와이파이를 추가할 경우 설치비가 부과됩니다.
+                            <br>· 휴대폰 결합상품은 유선 상품 설치 후 30일 이내에 본사(LG 101번, KT 100번, SK 106번)로 직접 결합 요청을 하셔야 합니다.
+                            <br>· 인터넷 개통 후 별도로 와이파이를 추가할 경우 설치비가 부과되니 휴대폰 결합상품 사용 시 대표 회선이 해지될 경우 모든 결합이 해지되며, 타 할인 상품으로
+                            이동은 불가합니다.
+                            <br>· SK 온 가족 플랜, 한 가족할인 상품은 신청 시 종이 가입 신청서를 작성하셔야 합니다.(신청서 작성이 어려우시면, 영업점에서 동의 후 대신 작성도
+                            가능합니다.)
+                            <br>· 가입 시 고객님의 개인정보는 가입 여부 확인을 위한 신용 정보 조회(신용도와 상관없음) 주소 시 이전, 요금 결제 변경, 장애 처리, 기사 출동 등 일부
+                            활용되는 점 인지 부탁드립니다.
+                            <br>· 가입신청은 신청서를 대신해 전화 녹취로 진행되며, 고객 보호와 해지 후 분쟁 해결을 위하여 가입 사실 확인 녹취도 진행하고 있으며, 고객님이 요구하실 경우
+                            녹취파일을 드리고 있습니다.
+                        </div>
+
+
+                    </div>
+
+                    <div class="information_content">
+                        <div class="info_content_title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                            <h2>
+                                사은품 반환 조건 사항
+
+                            </h2>
+                        </div>
+                        <span>(모든 영업점 동일합니다.)</span>
+                        <div class="info_wrap">
+                            · 인터넷 설치 후 1년 이내 해지 또는 요금 미납, 직권해지, 사용중지되는 경우
+                            <Br>· 자동이체를 가입 후 1년 이내 지로청구로 변경하는 경우
+                            <Br>· 인터넷 개통 후 3개월 이내 이용정지할 경우
+                            <Br>· 인터넷 사용기간 중 이용정지를 90일 초과할 경우
+                            <Br>· 동일 명의, 동일 장소로 사용 중이던 같은 통신사 상품을 3개월 안에 해지했을 경우
+                            <Br>· 동일 명의나 동일 청구 계정 등 동일한 정보로 사용 중이던 다른 지역 같은 통신사 상품을 6개월(LG, SK)/9개월(KT) 이내 해지하실 경우
+                            <Br>· 인터넷 설치 후 1년 내에 개인에서 사업자명으로 변경하는 경우
+                            <Br>· 모든 상품은 설치 후 1년 이내 복지할인, 기초생활 수급자 할인, 교육 공제 지원 할인 등 별도 지원 상품으로 변경할 경우
+                            <Br>· 개통 후 1년 이내 다른 상품으로 변경할 경우
+                            <Br>· 통신사별 지정된 날짜까지 설치가 안될 경우
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer footer_wrap">
+            <div class="footer_left">
+                <div class="foot-head">
+                    <h3>인터넷 가격비교</h3>
+                    <a href="javascript:void(0)">개인정보처리방침</a>
+                </div>
+                <ul class="corp_area">
+                    <li>인터넷하우스</li>
+                    <li>08500 서울특별시 금천구 가산디지털2로 173,217호</li>
+                    <li>대표 김두한<span class="ng-binding">사업자등록번호 </span> 124-87-32508</li>
+                    <li>통신판매업 신고번호 제2016-충부청주-0553호</li>
+                    <li class="copy">Copyright ⓒ (주)인터넷하우스 All Rights Reserved.</li>
+                </ul>
+            </div>
+            <div class="foot-direct">
+                <p class="foot-direct__center">전문 상담센터<span>1599-1651</span></p>
+                <p class="foot-direct__num "><a href="tel:0808023014" onclick="gtag_report_conversion()"
+                        class="ng-binding">080·802·3014 </a><span class="free">무료</span></p>
+                <p class="foot-direct__img"><a href="" open-jireh-footer-popup=""><img bindonce=""
+                            bo-src="imageDomain + '/jireh/shop-internet-renewal/footer-img.png'" alt="사전승낙판매점"
+                            src="https://img-insur.richnco.co.kr/jireh/shop-internet-renewal/footer-img.png"></a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
