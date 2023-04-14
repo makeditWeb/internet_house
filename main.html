@@ -247,7 +247,7 @@
 
 
             <div class="main_btn">
-                <a href="./board.html" class="btn submit-btn">
+                <a href="./aplication.html" class="btn submit-btn">
                     <p>상담 신청서 작성하러 가기</p>
                     
                 </a>
@@ -541,6 +541,30 @@
         </div>
     </footer>
 
+    <div class="main_bottom_fixed">
+        <div class="bottom_wrap">
+            <h2 class="title">비밀지원금 문자 신청</h2>
+            <div class="message_input">
+                <div class="basic_input">
+                    <input type="text" placeholder="이름">
+                    <input type="tel" placeholder="연락처">
+                </div>
+
+                <div class="personal_chk">
+                    <input id="personal_chk" type="checkbox" value="yes">
+                    <label for="personal_chk">개인정보 수집 및 이용에 동의합니다.
+                    </label>
+
+                    <div class="personal_popup">
+                        내용보기
+                    </div>
+                </div>
+
+                <button class="message_submit">신청하기</button>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/main.js"></script>
@@ -548,7 +572,7 @@
     <script>
         $(function() {
             $('.list_slide').slick({
-                slidesToShow: 3,
+                slidesToShow: 2.5,
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 2000,
@@ -556,6 +580,18 @@
                 infinite : true, 
             });
         });
+
+        var footer = document.querySelector('footer');
+var mainBottomFixed = document.querySelector('.main_bottom_fixed');
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY + window.innerHeight >= footer.offsetTop) {
+    mainBottomFixed.classList.remove('show');
+  } else {
+    mainBottomFixed.classList.add('show');
+  }
+});
+
     </script>
 </body>
 </html>
