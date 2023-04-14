@@ -17,13 +17,13 @@
     <header>
         <!-- 회원가입/로그인 -->
         <ul class="sign inner_wrap">
-            <li>로그인</li>
-            <li>회원가입</li>
+            <li><a href="./login.html">로그인</a></li>
+            <li><a href="./signout.html">회원가입</a></li>
         </ul>
 
         <ul class="logo_wrap inner_wrap">
             <li class="logo">
-                <a href="/internet_house/main.html"><img src="/internet_house/img/logo.png" alt="logo"></a>
+                <a href="./main.html"><img src="./img/logo.png" alt="logo"></a>
             </li>
             <li class="tel">
                 <div class="tel_wrap">
@@ -35,19 +35,56 @@
             </li>
         </ul>
 
+        
+
+
         <nav>
-            <ul class="navbar inner_wrap">
-                <li class="navbar_item"><a href="/internet_house/sk_page.html">SK브로밴드</a></li>
-                <li class="navbar_item"><a href="/internet_house/kt_page.html">KT 올레</a></li>
-                <li class="navbar_item"><a href="/internet_house/lg_page.html">LG 유플레스</a></li>
-                <li class="navbar_item"><a href="/internet_house/skt_page.html">SKT 텔레콤</a></li>
-                <li class="navbar_item"><a href="/internet_house/kt_skylife.html">KT 스카이라이프</a></li>
-                <li class="navbar_item"><a href="/internet_house/lg_hello.html">LG헬로비전</a></li>
-                <li class="navbar_item"><a href="/internet_house/customer.html">고객센터</a></li>
-                <li class="navbar_item"><a href="/internet_house/board.html">자유게시판</a></li>
-                <li class="navbar_item application"><a href="/internet_house/aplication.html">신청서 작성</a></li>
-            </ul>
+
+            <!-- <div for="menu-btn" class="nav-mobile">
+                <a id="nav-toggle" href="#!"><span></span></a>
+            </div> -->
+
+
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+            <span class="overlay"></span>
+
+            <div id="navbar" class="navbar inner_wrap"> 
+
+                <div class="navbar_mobile_login">
+                    <a href="./login.html" class="menue_btn">로그인</a>
+                    <a href="./signout.html" class="menue_btn">회원가입</a>
+                </div>
+                <ul id="menu" class="menu ">
+                    <li class="navbar_item" ><a href="./sk_page.html">SK브로밴드</a></li>
+                    <li class="navbar_item"><a href="./kt_page.html">KT 올레</a></li>
+                    <li class="navbar_item"><a href="./lg_page.html">LG 유플레스</a></li>
+                    <li class="navbar_item"><a href="./skt_page.html">SKT 텔레콤</a></li>
+                    <li class="navbar_item"><a href="./kt_skylife.html">KT 스카이라이프</a></li>
+                    <li class="navbar_item"><a href="./lg_hello.html">LG헬로비전</a></li>
+                    <li class="navbar_item menu-dropdown" data-toggle="submenu">
+                        <a href="#" class="menu-link" data-toggle="submenu">고객센터</a>
+                        <ul class="submenu">
+                            <li class="submenu_item"><a  class="submenu-link" href="/notice.html">공지사항</a></li>
+                            <li class="submenu_item"><a  class="submenu-link" href="/faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar_item"><a href="./board.html">후기</a></li>
+                    <li class="navbar_item application"><a href="./aplication.html">
+                        <i class="fa-regular fa-file-lines"></i>
+                        신청서 작성</a></li>
+                </ul>
+            </div>
         </nav>
+
+        
+
+
+
+        
     </header>
 
     <!-- main banner -->
