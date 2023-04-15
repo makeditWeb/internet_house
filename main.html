@@ -21,30 +21,34 @@
 
     <!-- header -->
     <header>
-        <!-- 회원가입/로그인 -->
-        <ul class="sign inner_wrap">
-            <li><a href="./login.html">로그인</a></li>
-            <li><a href="./signout.html">회원가입</a></li>
-        </ul>
 
-        <ul class="logo_wrap inner_wrap">
-            <li class="logo">
-                <a href="./main.html"><img src="./img/logo.png" alt="logo"></a>
-            </li>
-            <li class="tel">
-                <div class="tel_wrap">
-                    <p>1599-1651</p>
-                    <div class="icon">
-                        <i class="fa-solid fa-phone-volume"></i>
+        <div class="header_top">
+            <!-- 회원가입/로그인 -->
+            <ul class="sign inner_wrap">
+                <li><a href="./login.html">로그인</a></li>
+                <li><a href="./signout.html">회원가입</a></li>
+            </ul>
+
+            <ul class="logo_wrap inner_wrap">
+                <li class="logo">
+                    <a href="./main.html"><img src="./img/logo.png" alt="logo"></a>
+                </li>
+                <li class="tel">
+                    <div class="tel_wrap">
+                        <p>1599-1651</p>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
                     </div>
-                </div>
-            </li>
-        </ul>
+                </li>
+            </ul>
+        </div>
+
 
         
 
 
-        <nav>
+        <nav class="navbar_wrapper">
 
             <!-- <div for="menu-btn" class="nav-mobile">
                 <a id="nav-toggle" href="#!"><span></span></a>
@@ -356,7 +360,7 @@
                             <br>상품권 + 지원금 + 비밀지원금
                         </div>
                         <div class="benefit_btn">
-                            <button class="btn detail_btn">자세히 보기</button>
+                            <button class="btn detail_btn" onclick="location.href = './sk_page.html'">자세히 보기</button>
                             <button class="btn calulate_btn">월요금 계산기</button>
                         </div>
                     </div>
@@ -377,7 +381,7 @@
                             <br>상품권 + 지원금 + 비밀지원금
                         </div>
                         <div class="benefit_btn">
-                            <button class="btn detail_btn">자세히 보기</button>
+                            <button class="btn detail_btn" onclick="location.href = './kt_page.html'">자세히 보기</button>
                             <button class="btn calulate_btn">월요금 계산기</button>
                         </div>
                     </div>
@@ -399,7 +403,7 @@
                             <br>상품권 + 지원금 + 비밀지원금
                         </div>
                         <div class="benefit_btn">
-                            <button class="btn detail_btn">자세히 보기</button>
+                            <button class="btn detail_btn" onclick="location.href = './lg_page.html'">자세히 보기</button>
                             <button class="btn calulate_btn">월요금 계산기</button>
                         </div>
                     </div>
@@ -424,7 +428,7 @@
                             <br>상품권 + 지원금 + 비밀지원금
                         </div>
                         <div class="benefit_btn">
-                            <button class="btn detail_btn">자세히 보기</button>
+                            <button class="btn detail_btn" onclick="location.href = './skt_page.html'">자세히 보기</button>
                             <button class="btn calulate_btn">월요금 계산기</button>
                         </div>
                     </div>
@@ -447,7 +451,7 @@
                             <Br>상품권 + 지원금 + 비밀지원금
                         </div>
                         <div class="benefit_btn">
-                            <button class="btn detail_btn">자세히 보기</button>
+                            <button class="btn detail_btn" onclick="location.href = './kt_skylife.html'">자세히 보기</button>
                             <button class="btn calulate_btn">월요금 계산기</button>
                         </div>
                     </div>
@@ -470,7 +474,7 @@
                             <Br>상품권 + 지원금 + 비밀지원금
                         </div>
                         <div class="benefit_btn">
-                            <button class="btn detail_btn">자세히 보기</button>
+                            <button class="btn detail_btn" onclick="location.href = './lg_hello.html'">자세히 보기</button>
                             <button class="btn calulate_btn">월요금 계산기</button>
                         </div>
                     </div>
@@ -540,6 +544,12 @@
             </div>
         </div>
     </footer>
+
+    <div class="top_scroll">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+        </svg>
+    </div>
 
     <div class="main_bottom_fixed">
         <div class="bottom_wrap">

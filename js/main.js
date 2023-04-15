@@ -85,6 +85,38 @@ navbarMenu.addEventListener("click", toggleSubMenu);
 window.addEventListener("resize", resizeWindow);
 
 
+// top scroll
+
+var btn = $('.top_scroll');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+
+// navbar scroll fixed
+var navBar = $(".navbar_wrapper");
+var hdrHeight = $(".header_top").height();
+
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdrHeight + 58) {
+    navBar.addClass("navScrolled");
+  } else {
+    navBar.removeClass("navScrolled");
+  }
+});
+
 // tab
 
 const tabItem = document.querySelectorAll(".tab-container__item");
@@ -122,3 +154,5 @@ $(document).ready(function(){
 	})
 
 })
+
+
