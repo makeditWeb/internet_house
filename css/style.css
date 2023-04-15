@@ -2014,6 +2014,46 @@ cursor: pointer;
   .clause_contain{
     margin-bottom: 1.5rem;
   }
+
+  .find_id{
+    padding: 2rem 0;
+  }
+
+  .certification_text{
+    text-align: center;
+    font-size: 14px;
+    color: var(--font-main-color);
+    margin: 1.5rem 0;
+  }
+
+  .find_id .input_label input{
+    width: 100%;
+    background-color: rgb(243 243 243);
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
+
+  .find_id .btn_container{
+    display: flex;
+    width: 100%;
+  }
+
+  .find_id .btn_container button{
+    width: 50%;
+  }
+
+  .find_id .btn_container button:first-child{
+    margin-right: 0.5rem;
+  }
+
+  .input_label.input_first{
+    margin-bottom: 0.5rem!important;
+  }
+
 @media only screen and (max-width: 1024px) {
     /* .nav-mobile {
         display: block;

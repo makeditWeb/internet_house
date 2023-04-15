@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터넷 하우스</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7c3e78d84b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- 회원가입/로그인 -->
+        <ul class="sign inner_wrap">
+            <li><a href="./login.html">로그인</a></li>
+            <li><a href="./signout.html">회원가입</a></li>
+        </ul>
+
+        <ul class="logo_wrap inner_wrap">
+            <li class="logo">
+                <a href="./main.html"><img src="./img/logo.png" alt="logo"></a>
+            </li>
+            <li class="tel">
+                <div class="tel_wrap">
+                    <p>1599-1651</p>
+                    <div class="icon">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        
+
+
+        <nav>
+
+            <!-- <div for="menu-btn" class="nav-mobile">
+                <a id="nav-toggle" href="#!"><span></span></a>
+            </div> -->
+
+
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+            <span class="overlay"></span>
+
+            <div id="navbar" class="navbar inner_wrap"> 
+
+                <div class="navbar_mobile_login">
+                    <a href="./login.html" class="menue_btn">로그인</a>
+                    <a href="./signout.html" class="menue_btn">회원가입</a>
+                </div>
+                <ul id="menu" class="menu ">
+                    <li class="navbar_item" ><a href="./sk_page.html">SK브로밴드</a></li>
+                    <li class="navbar_item"><a href="./kt_page.html">KT 올레</a></li>
+                    <li class="navbar_item"><a href="./lg_page.html">LG 유플레스</a></li>
+                    <li class="navbar_item"><a href="./skt_page.html">SKT 텔레콤</a></li>
+                    <li class="navbar_item"><a href="./kt_skylife.html">KT 스카이라이프</a></li>
+                    <li class="navbar_item"><a href="./lg_hello.html">LG헬로비전</a></li>
+                    <li class="navbar_item menu-dropdown" data-toggle="submenu">
+                        <a href="#" class="menu-link" data-toggle="submenu">고객센터</a>
+                        <ul class="submenu">
+                            <li class="submenu_item"><a  class="submenu-link" href="/notice.html">공지사항</a></li>
+                            <li class="submenu_item"><a  class="submenu-link" href="/faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar_item"><a href="./board.html">후기</a></li>
+                    <li class="navbar_item application"><a href="./aplication.html">
+                        <i class="fa-regular fa-file-lines"></i>
+                        신청서 작성</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        
+
+
+
+        
+    </header>
+
+    <section class="find_personal">
+        <div class="find_id">
+            <h2 class="page_ttile">
+                아이디 찾기
+            </h2>
+
+            <p class="certification_text">
+                회원가입 떄, 등록하신 이메일 주소를 입력해 주세요.
+                <Br>해당 이메일로 인증번호를 발송합니다.
+            </p>
+
+            <form class="login_find_container">
+                <div class="login_container">
+                    <div class="input_label">
+                        <input type="text" id="id_input" placeholder="이메일 주소를 입력해 주세요">
+
+                    </div>
+
+                    <div class="btn_container">
+                        <button type="button" class="btn submit_btn">뒤로가기</button>
+                        <button type="button" class="btn signout_btn">다음으로</button>
+                    </div>
+    
+                </div>
+
+                
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer footer_wrap">
+            <div class="footer_left">
+                <div class="foot-head">
+                    <h3>인터넷 가격비교</h3>
+                    <a href="javascript:void(0)">개인정보처리방침</a>
+                </div>
+                <ul class="corp_area">
+                    <li>인터넷하우스</li>
+                    <li>08500 서울특별시 금천구 가산디지털2로 173,217호</li>
+                    <li>대표 김두한<span class="ng-binding">사업자등록번호 </span> 124-87-32508</li>
+                    <li>통신판매업 신고번호 제2016-충부청주-0553호</li>
+                    <li class="copy">Copyright ⓒ (주)인터넷하우스 All Rights Reserved.</li>
+                </ul>
+            </div>
+            <div class="foot-direct">
+                <p class="foot-direct__center">전문 상담센터<span>1599-1651</span></p>
+                <p class="foot-direct__num "><a href="tel:0808023014" onclick="gtag_report_conversion()" class="ng-binding">080·802·3014 </a><span class="free">무료</span></p>
+                <p class="foot-direct__img"><a href="" open-jireh-footer-popup=""><img bindonce="" bo-src="imageDomain + '/jireh/shop-internet-renewal/footer-img.png'" alt="사전승낙판매점" src="https://img-insur.richnco.co.kr/jireh/shop-internet-renewal/footer-img.png"></a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
