@@ -4,7 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>인터넷 하우스</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7c3e78d84b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -79,5 +90,82 @@
 
         
     </header>
+
+    <section class="sign_wrap">
+        <div class="signout_wrapper">
+            <h2 class="page_ttile">
+                회원가입
+            </h2>
+
+            <form class="login_container">
+                <div class="signout_input">
+                    <div class="input_info">
+                        <div class="input_title">아이디 <span>(필수)</span></div>
+                        <input type="text" >
+                        <p class="info_alert">영문자, 숫자, _ 만 입력 가능. 최소 3자이상 입력하세요.</p>
+                    </div>
+    
+                    <div class="input_info">
+                        <div class="input_title">비밀번호 <span>(필수)</span></div>
+                        <input type="password" >
+                        <p class="info_alert">비밀번호는 4자리 이상이어야 하며 , 1개 이상의 숫자, 1개 이상의 특수문자를 포함해야 합니다.</p>
+                    </div>
+
+                    <div class="input_info">
+                        <div class="input_title">비밀번호 확인<span>(필수)</span></div>
+                        <input type="password" >
+                        <p class="info_alert">비밀번호는 4자리 이상이어야 하며 , 1개 이상의 숫자, 1개 이상의 특수문자를 포함해야 합니다.</p>
+                    </div>
+    
+                    <div class="input_info">
+                        <div class="input_title">이름 <span>(필수)</span></div>
+                        <input type="text">
+                        
+                    </div>
+    
+                    <div class="input_info">
+                        <div class="input_title">닉네임 <span>(필수)</span></div>
+                        <input type="text">
+                        <p class="info_alert">공백없이 한글, 영문, 숫자만 입력 가능 2글자 이상</p>
+                    </div>
+    
+                    <div class="input_info">
+                        <div class="input_title">이메일주소 <span>(필수)</span></div>
+                        <input type="email">
+
+                    </div>
+                    <div class="input_info">
+                        <div class="input_title">전화번호 <span>(필수)</span></div>
+                        <input type="tel">
+
+                    </div>
+    
+                </div>
+
+                <div class="btn_container">
+                    <button class="btn submit_btn">회원가입</button>
+                    <button class="btn signout_btn" onclick="location.href='./signout.html'">취소</button>
+                </div>
+
+                <div class="personal_agree">
+                    <div class="personal_chk">
+                        <input id="personal_chk" type="checkbox" value="yes">
+      
+                        <label for="personal_chk">개인정보 수집 및 이용에 동의합니다.
+                        </label>
+                    </div>
+
+                    <div class="personal_chk">
+                        <input id="personal_chk" type="checkbox" value="yes">
+      
+                        <label for="personal_chk">개인정보 수집 및 이용에 동의합니다.
+                        </label>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
 </body>
 </html>
