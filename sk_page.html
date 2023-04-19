@@ -137,7 +137,14 @@
                                 이용중인 SKT휴대폰이 없을실 때
                             </h2>
 
+
                         </div>
+
+                        <ul class="price_discount">
+                            <li class="price_list">20%할인</li>
+                            <li class="price_list">30%할인</li>
+                            <li class="price_list">50%할인</li>
+                        </ul>
 
                         <div class="product_table_wrap">
                             <table class="product_table" cellspacing="0" style="border-collapse:collapse; width: 100%;">
@@ -213,6 +220,61 @@
                           </svg></a>
                     </div>
                 </div>
+
+                <div class="price_info">
+                    <h2>설치비 안내</h2>
+                    <p>(본사, 센터, 영업점 모든 곳이 동일하게 설치비가 청구됩니다.)</p>
+                </div>
+
+                <div class="product_table_wrap  margin-down">
+                    <table cellspacing="0" class="product_table" style="border-collapse:collapse; width: 100%;">
+                        <colgroup>
+                            <col width="16.666%">
+                            <col width="16.666%">
+                            <col width="16.666%">
+                            <col width="16.666%">
+                            <col width="16.666%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <td>구분</td>
+                                <td>인터넷</td>
+                                <td>TV</td>
+                                <td>WIFI</td>
+                                <td>추가 TV</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>단독</td>
+                                <td>27,500원</td>
+                                <td>22,000원</td>
+                                <td>11,000원</td>
+                                <td>22,000원</td>
+                            </tr>
+                            <tr>
+                                <td>인터넷+TV동시</td>
+                                <td>25,300원</td>
+                                <td>13,200원</td>
+                                <td>면제</td>
+                                <td>13,200원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <p>· 설치비는<font face="gmarketMedium">&nbsp;</font>부가세<font face="gmarketMedium">&nbsp;</font>포함금액입니다.</p>
+                    
+                    <p>&nbsp;</p>
+                    </div>
+
+                    <div class="product_txt_desc">
+                        <h6 class="product_txt_tit">TV상품 신청시 참고사항</h6>
+                        <div class="product_txt_item">
+                            <p>· B tv LITE : 드라마/예능 채널은 기본! 애니/골프/스포츠 채널까지 시청할 수 있는 인기상품 (221ch) </p> 
+                            <p>· B tv ALL : 채널 고민 없이 B tv 모든 채널을 시청할 수 있는 상품(253ch)</p>
+                        </div>
+                    </div>
+
 
 
             </div>
@@ -617,6 +679,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
     <script src="./js/main.js"></script>
+
+    <script>
+        $('.price_discount li').on('click', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+});
+    </script>
 </body>
 
 </html>

@@ -1143,12 +1143,44 @@ footer {
     display: block;
 }
 
+.product_table_wrap p{
+    font-size: 14px;
+    margin: 1rem 0 0;
+}
 
+.product_txt_desc{
+    background-color: rgb(243, 243, 243);
+    border: 12px;
+    width: 100%;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+}
+
+.product_txt_desc p{
+    font-size: 14px;
+    line-height: 1.2;
+    display: block!important;
+    padding-bottom: 0!important;
+    color: var(--font-main-color)!important;
+}
+
+.price_etc{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.price_etc .product_table_wrap{
+    margin: 0;
+}
+
+.price_etc .product_table_wrap:last-child{
+    margin-top: 1rem;
+}
 /* skt */
 
 .price_info {
 
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .price_info h2 {
@@ -1236,8 +1268,45 @@ footer {
     font-weight: 600;
 }
 
+
+.price_discount{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.price_discount li{
+    width: calc(100% / 3);
+    background-color: #fff;
+    color: var(--font-main-color);
+    border: 1px solid var(--font-main-color);
+    font-weight: 600;
+    margin-right: 1rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.price_discount li.active{
+    background-color: var(--font-main-color);
+    color: #fff;
+    border: none;
+}
+
+.price_discount li:last-child{
+    margin-right: 0;
+}
+
 .product_table_wrap{
     margin-top: 2.5rem;
+}
+
+.product_table_wrap.margin-down{
+    margin-top: 0;
 }
 
 /* 결합정보 */
