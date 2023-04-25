@@ -2123,6 +2123,33 @@ cursor: pointer;
     margin-bottom: 0.5rem!important;
   }
 
+
+  /* windowpopup */
+
+  .window_popup{
+
+  }
+
+  .window_popup_header{
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .window_popup p{
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--font-main-color);
+    border: 1px solid var(--border-main-color);
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+  }
+
+
 @media only screen and (max-width: 1024px) {
     /* .nav-mobile {
         display: block;

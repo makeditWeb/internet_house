@@ -527,7 +527,7 @@
             <div class="footer_left">
                 <div class="foot-head">
                     <h3>인터넷 가격비교</h3>
-                    <a href="javascript:void(0)">개인정보처리방침</a>
+                    <a href="./window_popup.html" class="windowpopup">개인정보처리방침</a>
                 </div>
                 <ul class="corp_area">
                     <li>인터넷하우스</li>
@@ -602,6 +602,23 @@ window.addEventListener('scroll', function() {
   }
 });
 
+
+// window popup
+$(function(){
+
+var
+w       = 770,
+h       = 600,
+l       = (screen.availWidth - w) / 2,
+t       = (screen.availHeight - h) / 2,
+popPage = '.windowpopup';
+
+$(popPage).on('click',function(event){
+    window.open(this.href,"window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+     return false;
+});
+
+});
     </script>
 </body>
 </html>
